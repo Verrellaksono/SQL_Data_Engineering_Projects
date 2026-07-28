@@ -1,3 +1,6 @@
+-- duckdb dw_marts.duckdb -c ".read build_dw_marts.sql"
+
+
 -- Step 1: DW - Crate star schema tables
 .read 01_Create_Tables_DW.sql
 
